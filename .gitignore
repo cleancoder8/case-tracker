@@ -1,0 +1,8 @@
+iac/*.js
+iac/!jest.config.js
+iac/*.d.ts
+iac/node_modules
+
+# CDK asset staging directory
+iac/.cdk.staging
+iac/cdk.out
