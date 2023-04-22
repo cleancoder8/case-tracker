@@ -64,4 +64,4 @@ jobs:
             ${{ runner.os }}-
       - name: Deploy
         run: |
-          make deploy.cdk
+          make deploy
