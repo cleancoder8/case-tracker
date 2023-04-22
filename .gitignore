@@ -6,3 +6,4 @@ iac/node_modules
 # CDK asset staging directory
 iac/.cdk.staging
 iac/cdk.out
+.venv
