@@ -2,3 +2,4 @@ boto3
 pydantic
 requests
 aws-lambda-powertools
+pre-commit
