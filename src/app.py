@@ -18,6 +18,11 @@ def _notify_user(new_status: str):
 
 
 def handler(event, context):
+    logger.info(
+            {
+                "msg": f"case check lambda triggered"
+            }
+        )
     http_response = get(url=config.case_tracker_url)
     response = Response(**http_response.json() if http_response else {})
     if response.caseStatus != config.case_status_to_monitor:
